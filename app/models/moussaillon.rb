@@ -1,0 +1,4 @@
+class Moussaillon < ApplicationRecord
+	
+
+end

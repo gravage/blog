@@ -1,0 +1,13 @@
+<h1> Hello petit moussaillon!! </h1>
+
+<h1> Creer un profil</h1>
+<%= form_tag (moussaillons_path) do %>
+<%= label_tag 'username', 'username' %>
+    <%= text_field_tag 'username' %>
+    <%= label_tag 'email', 'email' %>
+    <%= text_field_tag 'email' %>
+    <%= submit_tag "Creer un profil"%>
+<% end %>
+
+
+
